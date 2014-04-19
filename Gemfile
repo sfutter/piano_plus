@@ -44,6 +44,7 @@ group :production do
 # use postgres for heroku
 	gem 'pg'
 	gem 'rails_12factor'
+	gem 'fog'
 end
 
 # Use ActiveModel has_secure_password
